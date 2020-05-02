@@ -1,0 +1,27 @@
+{% extends "index.html" %}
+{% block body %}
+<form name="wer" action="/submit" method="post">
+    请输入:
+    <input type="text" name="word" />
+	
+</form>
+
+结果：
+<textarea rows="1" cols="20">
+{{ title }}
+</textarea>
+<br>
+<div id="d1">
+<a href="http://127.0.0.1:5000/download" id="a1">点击下载</a>    
+</div>
+<br>
+<br>
+	
+<a href="http://127.0.0.1:5000/function1">功能一</a> 
+<a href="http://127.0.0.1:5000/function2">功能二</a> 
+<br>
+<textarea rows="3" cols="10" id="t2">
+{{ output }}
+</textarea>
+
+{% endblock %}

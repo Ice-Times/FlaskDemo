@@ -1,0 +1,29 @@
+input {
+  background-color: orangered;
+  color: white;
+  width: 50%;
+}
+
+h1{
+	background-color: aqua;
+	font-size: 20px;
+	text-align: center;
+}
+
+textarea{
+	width: 50%;
+	margin-top: 20px;
+	font-size: 18px;
+	color: red;
+}
+
+#t2{
+	width: 10%;
+	
+}
+
+#d1{
+	margin-top: 30px;
+	background-color: aquamarine;
+	width: 80px;
+}
